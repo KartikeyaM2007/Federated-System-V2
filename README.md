@@ -106,3 +106,6 @@ Open Source Contribution: Can inspire similar privacy-preserving systems
 Protects Patient Privacy: Maintains trust in digital healthcare
 Enables Cross-Border Collaboration: Hospitals globally can contribute
 Bridges Data Inequality: Levels playing field for smaller healthcare providers
+
+
+author :  Kartikeya Mishra
