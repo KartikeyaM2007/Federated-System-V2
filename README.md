@@ -1,6 +1,6 @@
 # Federated-Hospital-System
 A privacy-preserving federated learning platform for collaborative disease detection across hospitals without sharing sensitive patient data.
-
+live on : https://federated-system-v2-production.up.railway.app/
 # Overview
 The Federated Hospital System revolutionizes collaborative medical AI by enabling hospitals to contribute to machine learning models without exposing sensitive patient data. Using federated learning, each hospital trains models locally in their browser, and only encrypted model weights are shared—never the raw patient data.
 🔬 Supported Disease Detections:
