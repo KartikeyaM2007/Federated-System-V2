@@ -49,12 +49,12 @@ const Kidney = () => {
     setResult(null);
 
     // Validation
-    if (!formData.age || !formData.bp || !formData.sg || !formData.al || !formData.su || 
-        !formData.rbc || !formData.pc || !formData.pcc || !formData.ba || 
-        !formData.bgr || !formData.bu || !formData.sc || !formData.sod || 
-        !formData.pot || !formData.hemo || !formData.pcv || !formData.wc || 
-        !formData.rc || !formData.htn || !formData.dm || !formData.cad || 
-        !formData.appet || !formData.pe || !formData.ane) {
+    if (!formData.age || !formData.bp || !formData.sg || !formData.al || !formData.su ||
+      !formData.rbc || !formData.pc || !formData.pcc || !formData.ba ||
+      !formData.bgr || !formData.bu || !formData.sc || !formData.sod ||
+      !formData.pot || !formData.hemo || !formData.pcv || !formData.wc ||
+      !formData.rc || !formData.htn || !formData.dm || !formData.cad ||
+      !formData.appet || !formData.pe || !formData.ane) {
       setError('Please fill in all fields!');
       return;
     }
@@ -144,7 +144,7 @@ const Kidney = () => {
   return (
     <div className="disease-page">
       <NavBar />
-      
+
       <div className="disease-container">
         {/* Header Section */}
         <div className="disease-header">
@@ -163,9 +163,9 @@ const Kidney = () => {
         <div className="disease-content">
           <div className="prediction-form-wrapper">
             <h2 className="form-section-title">Patient Information</h2>
-            
+
             {error && <div className="alert alert-error">{error}</div>}
-            
+
             <div className="prediction-form">
               {/* Age & Blood Pressure */}
               <div className="form-row">
@@ -616,8 +616,8 @@ const Kidney = () => {
                 </div>
                 <h3 className="result-title">Prediction Result</h3>
                 <p className="result-text">
-                  {result.prediction === 1 
-                    ? 'High Risk of Kidney Disease Detected' 
+                  {result.prediction === 1
+                    ? 'High Risk of Kidney Disease Detected'
                     : 'Low Risk of Kidney Disease'}
                 </p>
                 {result.probability && (

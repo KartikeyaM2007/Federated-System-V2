@@ -34,9 +34,9 @@ const Diabetes = () => {
     setResult(null);
 
     // Validation
-    if (!formData.gender || !formData.age || !formData.hypertension || 
-        !formData.heartDisease || !formData.smokingHistory || 
-        !formData.bmi || !formData.hba1cLevel || !formData.bloodGlucoseLevel) {
+    if (!formData.gender || !formData.age || !formData.hypertension ||
+      !formData.heartDisease || !formData.smokingHistory ||
+      !formData.bmi || !formData.hba1cLevel || !formData.bloodGlucoseLevel) {
       setError('Please fill in all fields!');
       return;
     }
@@ -94,7 +94,7 @@ const Diabetes = () => {
   return (
     <div className="disease-page">
       <NavBar />
-      
+
       <div className="disease-container">
         {/* Header Section */}
         <div className="disease-header">
@@ -113,9 +113,9 @@ const Diabetes = () => {
         <div className="disease-content">
           <div className="prediction-form-wrapper">
             <h2 className="form-section-title">Patient Information</h2>
-            
+
             {error && <div className="alert alert-error">{error}</div>}
-            
+
             <div className="prediction-form">
               <div className="form-row">
                 <div className="form-group">
@@ -287,8 +287,8 @@ const Diabetes = () => {
                 </div>
                 <h3 className="result-title">Prediction Result</h3>
                 <p className="result-text">
-                  {result.prediction === 1 
-                    ? 'High Risk of Diabetes Detected' 
+                  {result.prediction === 1
+                    ? 'High Risk of Diabetes Detected'
                     : 'Low Risk of Diabetes'}
                 </p>
                 {result.probability && (

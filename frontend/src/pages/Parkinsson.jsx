@@ -134,7 +134,7 @@ const Parkinsson = () => {
   return (
     <div className="disease-page">
       <NavBar />
-      
+
       <div className="disease-container">
         {/* Header Section */}
         <div className="disease-header">
@@ -153,9 +153,9 @@ const Parkinsson = () => {
         <div className="disease-content">
           <div className="prediction-form-wrapper">
             <h2 className="form-section-title">Vocal Measurement Parameters</h2>
-            
+
             {error && <div className="alert alert-error">{error}</div>}
-            
+
             <div className="prediction-form">
               {/* Fundamental Frequency Measures */}
               <div className="form-row">
@@ -573,8 +573,8 @@ const Parkinsson = () => {
                 </div>
                 <h3 className="result-title">Prediction Result</h3>
                 <p className="result-text">
-                  {result.prediction === 1 
-                    ? "High Risk of Parkinson's Disease Detected" 
+                  {result.prediction === 1
+                    ? "High Risk of Parkinson's Disease Detected"
                     : "Low Risk of Parkinson's Disease"}
                 </p>
                 {result.probability && (
