@@ -11,6 +11,25 @@ Kidney Disease Detection - Renal function evaluation
 Parkinson's Disease Detection - Neurological pattern recognition
 Breast Cancer Detection - Tumor classification
 
+# Project Metrics
+
+**Overall Platform Stats:**
+- **Disease Models:** 5
+- **Average Accuracy:** 92.69%
+- **Data Privacy:** 100%
+- **Total Samples:** 140,071
+
+## Model Performance Metrics
+
+| Model | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) | ROC-AUC (%) | Samples |
+| --- | --- | --- | --- | --- | --- | --- |
+| Diabetes Detection | 84.38 | 34.90 | 96.88 | 51.32 | 97.75 | 100,000 |
+| Kidney Disease Detection | 97.50 | 100.00 | 93.33 | 96.55 | N/A | 20,000 |
+| Parkinson's Disease Detection | 92.31 | 93.33 | 96.55 | 94.92 | 97.59 | 7,500 |
+| Heart Disease Detection | 96.59 | 93.75 | 100.00 | 96.77 | 100.00 | 11,224 |
+| Breast Cancer Detection | 89.47 | 95.45 | 87.50 | 91.30 | 96.51 | 1,346 |
+
+
 
 # Key Features
 ## Privacy-First Architecture
@@ -108,4 +127,4 @@ Enables Cross-Border Collaboration: Hospitals globally can contribute
 Bridges Data Inequality: Levels playing field for smaller healthcare providers
 
 
-author :  Kartikeya Mishra
+author :  Kartikeya Krishna Mishra
